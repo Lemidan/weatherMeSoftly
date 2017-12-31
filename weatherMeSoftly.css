@@ -1,0 +1,57 @@
+*{
+  outline: none !important;
+}
+
+#divBody {
+  background: linear-gradient(to bottom, #639eff, #91bbff);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: -20px;
+  overflow: hidden;
+  position: fixed;
+}
+
+.weatherText {
+  font-family: Montserrat;
+  text-align: center;
+  color: white;
+}
+
+#headLine {
+  font-size: 40px;
+  margin-top: 9%;
+}
+
+#locationBtn {
+  background: none;
+  border: none;
+}
+#locationBtn:hover {
+  color: #cccccc;
+}
+
+#locationOutput {
+  margin: 20px auto 10px auto;
+  font-size: 36px;
+}
+
+#temperatureText {
+  font-size: 35px;
+}
+
+#temperatureOutput {
+  background: none;
+  border: none;
+}
+#temperatureOutput:hover {
+  color: #cccccc;
+}
+#temperatureOutput {
+  margin: 5px auto 10px auto;
+  font-size: 36px;
+}
+
+#toggleText {
+  font-size: 12px;
+}
